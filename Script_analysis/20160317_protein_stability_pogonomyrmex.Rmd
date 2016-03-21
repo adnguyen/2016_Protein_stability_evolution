@@ -1,0 +1,12 @@
+---
+title: "Evolutionary innovations in protein unfolding kinetics"
+author: "Andrew Nguyen"
+date: "2016-March-17"
+output: pdf_document
+---
+```{r libraries}
+library(ggplot2)
+library(tidyr)
+library(plyr)
+```
+

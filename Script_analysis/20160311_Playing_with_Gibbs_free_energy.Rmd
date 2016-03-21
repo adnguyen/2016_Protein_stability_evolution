@@ -1,0 +1,227 @@
+---
+title: "Thermal unfolding"
+author: "Andrew Nguyen"
+date: "2016-March-11"
+output: pdf_document
+---
+```{r libraries}
+library(ggplot2)
+```
+
+#Model Unfolding curve: Negative logistic function
+###function
+
+1/(1+exp(-(-1*x)))
+```{r unfolding function}
+fud<-function(T=seq(25,50,1),Tm=40,slope=.5){
+  y<-1/(1+exp((-slope*(Tm-T))))
+  return(y)
+  }
+plot(seq(25,50,1),fud(),pch=15,col="black")
+points(seq(25,50,1),fud(slope=1),pch=16,col="red")
+points(seq(25,50,1),fud(slope=.25),pch=16,col="blue")
+
+
+#Converting C to Kelvin, add 273.15
+deltaHm<-(40+273.15)*1
+Tm<-40
+
+ya<-c(98.1)
+```
+
+#old data
+```{r}
+old<-read.csv("Old_folding_data.csv")
+plot(old)
+old$K<-old$Tc+273.15
+old$unfold<-1-(old$ya/max(old$ya))
+plot(old$Tc,old$unfold)
+
+
+#fitting my new function!
+neg.fit<-nls(unfold~1/(1+exp((-slope*(Tm-Tc)))),data=old,start=list(slope=.5,Tm=45),trace=TRUE,control=nls.control(warnOnly
+= TRUE, tol = 1e-05, maxiter=1000))
+summary(neg.fit)
+
+deltaHm<-(47.25+273.15)*0.38065
+
+pred<-predict(neg.fit,type="response")
+plot(old$Tc,old$unfold,ylim=c(0,1))
+lines(old$Tc,pred)
+
+```
+
+#estimating gibbs free energy
+### using this equation
+```{r estimating gibbs free}
+#Delta G = DeltaHm ( 1- T/Tm) - DeltaCp(Tm-T + T*Ln(T/Tm))
+
+#assuming no DeltaCP
+DeltaG_1<-function(Hm=deltaHm,T=seq(25,50,1),Tm=35){
+  G<-Hm*(1-(T/Tm))
+  plot(T,G,pch=16)
+  abline(h=0,lty="dotdash")
+  }
+DeltaG_1()
+
+
+#together
+DeltaG_2<-function(Cp=2,Hm=deltaHm,T=(seq(0,60,.1)+273.15),Tm=35+273.15){
+  G<-Hm*(1-(T/Tm))-(Cp*((Tm-T)+T*log(T/Tm)))
+  #plot(T,G,pch=16,ylab="Gibbs Free of Unfolding",xlab="Temperature in Kelvins")
+  #abline(h=0,lty="dotdash")
+  return(G)
+  #dat<-as.data.frame(cbind(T,G))
+  #return(dat)
+  #Tms<-(subset(dat,dat$G=="0"))[1]-273.15
+  #return(Tms)
+  }
+#par(mfrow=c(1,1))
+Temp<-seq(0,60,.1)
+plot(Temp,DeltaG_2(Cp=0),ylim=c(-10,10),xlim=c(0,60),ylab=expression(paste(Delta,G," of unfolding (Kcal/mole)")),main=expression(paste(Delta,G," = ",Delta,H[m],(1-frac(T,T[m]))," - ",Delta,C[p],(T[m]-T+T%*%Ln(frac(T,T[m]))))))
+abline(h=0,lty="dotdash")
+points(Temp,DeltaG_2(Cp=5),col="purple",pch=16)
+points(Temp,DeltaG_2(Cp=10),col="blue",pch=17)
+points(Temp,DeltaG_2(Cp=100),col="red",pch=17)
+legend(40,10,c("0","5","10","100"),pch=16,col=c("black","purple","blue","red"),title="Heat Capacity",box.col="white")
+
+#comparing our model to pace et al. ch 13
+plot(Temp,DeltaG_2(Cp=1.1,Hm=96.6,Tm=(48.3+273)),ylab="Delta G of unfolding",main="Pace et al. Ch13, Gibbs = 5.9, Tm=48.3,Cp = 1.1")
+points(25,6,pch=16,cex=2,col="red")
+text(35,6,label="Our model estimate :-)")
+
+#playing with enthalpy
+#Delta G = DeltaHm ( 1- T/Tm) - DeltaCp(Tm-T + T*Ln(T/Tm))
+plot(Temp,DeltaG_2(Cp=5,Hm=100),ylim=c(-10,10),xlim=c(0,60),ylab=expression(paste(Delta,G," of unfolding (Kcal/mole)")),main=expression(paste(Delta,G," = ",Delta,H[m],(1-frac(T,T[m]))," - ",Delta,C[p],(T[m]-T+T%*%Ln(frac(T,T[m]))))))
+abline(h=0,lty="dotdash")
+points(Temp,DeltaG_2(Cp=5,Hm=200),col="purple",pch=16)
+points(Temp,DeltaG_2(Cp=5,Hm=300),col="blue",pch=17)
+points(Temp,DeltaG_2(Cp=5,Hm=50),col="red",pch=17)
+legend(40,10,c("100","200","300","50"),pch=16,col=c("black","purple","blue","red"),title="Enthalpy",box.col="white")
+```
+
+#messing around
+```{r}
+#first derivitive
+deriv<-function(a=0.38065,Tm=(35+273),T=(seq(0,60,.1)+273)){
+  first<-(a*exp(a*(Tm-T)))/((exp(a*(Tm-T))+1)^2)
+  second<-((a^2)*(exp(a*(Tm-T))-1)*(exp(a*(Tm-T))))/(exp(a*(Tm-T))+1)^3
+  dat<-data.frame(cbind(first,second))
+  return(dat)
+}
+
+deriv()
+plot(seq(0,60,.1),deriv()[,1],ylim=c(-.02,.1))
+points(seq(0,60,.1),deriv()[,2],col="blue")
+max(deriv()[,1])
+
+
+#te<-DeltaG_2(Cp=deriv()[,2],Hm=deriv()[,1])
+#plot(seq(25,60,.1),te)
+#abline(h=0,lty="dotdash")
+
+test2<-DeltaG_2(Cp=deriv()[,2],T=(seq(0,60,.1)+273))
+plot(seq(0,60,.1),test2)
+abline(h=0,lty="dotdash")
+
+cbind(seq(0,60,.1),test2)[251,] #gibbs free estimate
+
+calc_cp<-function(Hm=deltaHm,Temp=(seq(0,60,.1)+273),Tm=(48.3+273)){
+  calc<-(Hm*2*Temp)/(Tm*(Tm-Temp))
+  return(calc)
+}
+plot(seq(0,60,.1),calc_cp())
+
+```
+
+
+#van't hoff's approach
+```{r van't hoff}
+old
+
+#vant<-function(Tm=35,T=seq(25,60,1))
+  
+#looking at linear region of points
+old$Keq<-log(old$ya/max(old$ya))
+#plot((1/old$K),old$Keq,xlim=c(0.003,0.0032))
+#text((1/old$K),old$Keq,labels=old$Tc)
+old$Temperature_K<-1/old$K
+#subsetting linear part of equation
+new<-subset(old,old$Tc > 45 & old$Tc <52)
+
+mod1<-lm(Keq~Temperature_K,data=new)
+summary(mod1)
+
+
+plot(new$Temperature_K,new$Keq,main="van't Hoff plot")
+abline(mod1)
+#http://www.science.uwaterloo.ca/~cchieh/cact/c120/idealgas.html
+param<-coef(mod1)/.001987
+names(param)<-c("Entropy","Enthalpy");param
+G_estimate<-function(Entropy=param[1],Enthalpy=param[2],Temp=(seq(-60,60,.1)+273.15)){
+  gibbs<-(Enthalpy)-(Temp*Entropy)
+  return(gibbs)
+}
+G_estimate()
+plot(seq(-60,60,.1),G_estimate())
+```
+
+#break point analysis
+```{r}
+library(segmented)
+library(ggplot2)
+m<-read.csv("20160311_prot_unfolding.csv")
+str(m)
+
+p<-ggplot(m,aes(y=Conc,x=Temp,colour=Species,shape=Treatment))+geom_point(size=3)
+p
+
+#pic
+pic<-subset(m,m$Species=="A. picea")
+p1<-ggplot(pic,aes(y=Conc,x=Temp,colour=Treatment))+geom_point(size=3)
+p1
+#pogo
+pog<-subset(m,m$Species=="P. barbatus")
+p2<-ggplot(pog,aes(y=Conc,x=Temp,colour=Treatment))+geom_point(size=3)
+p2
+
+#break point analysis for aphaeno
+apic.mod1<-lm(Conc~Temp,data=subset(pic,pic$Treatment=="Native"))
+summary(apic.mod1)
+
+apic.seg1<-segmented(apic.mod1,seg.Z=~Temp,psi=list(Temp=c(30)))
+summary(apic.seg1)
+apic.seg1$psi#break point estimates
+slope(apic.seg1)#getting slopes
+
+
+#break point analysis for pogo
+pog.mod1<-lm(Conc~Temp,data=subset(pog,pog$Treatment=="Native"))
+summary(pog.mod1)
+
+pog.seg1<-segmented(pog.mod1,seg.Z=~Temp,psi=list(Temp=c(30)))
+summary(pog.seg1)
+pog.seg1$psi#break point estimates
+slope(pog.seg1)#getting slopes
+
+plot(pog$Temp,pog$Conc,pch=16,cex=2)
+abline(a=1,b=0.0002672)
+abline(a=1,b=-0.0420500)
+
+```
+
+#new function
+```{r new function}
+DeltaG_3<-function(Cp=5,T=(seq(-60,60,.1)+273.15),Tm=35+273.15,slope=.3){
+  G<-(slope*Tm)*(1-(T/Tm))-(Cp*((Tm-T)+T*log(T/Tm)))
+  return(G)
+
+  }
+DeltaG_3()
+plot(seq(-60,60,.1),DeltaG_3(),ylim=c(-20,20),xlim=c(-60,60),ylab=expression(paste(Delta,G," of unfolding (Kcal/mole)")),main=expression(paste(Delta,G," = ",Delta,H[m],(1-frac(T,T[m]))," - ",Delta,C[p],(T[m]-T+T%*%Ln(frac(T,T[m]))))))
+abline(h=0,v=25,lty="dotdash")
+points(seq(-60,60,.1),DeltaG_3(Tm=25+273.15))
+points(seq(-60,60,.1),DeltaG_3(Tm=60+273.15))
+points(seq(-60,60,.1),DeltaG_3(Tm=60+273.15,slope=.4),col="red")
+```
+

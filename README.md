@@ -1,9 +1,8 @@
 # 2016_Protein_stability_evolution
-##Author: Andrew Nguyen; PhD Candidate at the University of Vermont (https://adnguyen.github.io/)
-##Date initiated 20160321      
-##This work was supported by the National Science Foundation, Division of
-Environmental Biology (1136644)      
-##This work is in collaboration with VGN proteomics facility: https://vgn.uvm.edu/proteomics
+### Author: Andrew Nguyen; PhD Candidate at the University of Vermont (https://adnguyen.github.io/)
+### Date initiated 20160321      
+### This work was supported by the National Science Foundation, Division of Environmental Biology (1136644)      
+### This work is in collaboration with VGN proteomics facility: https://vgn.uvm.edu/proteomics
 
 
 #Objectives

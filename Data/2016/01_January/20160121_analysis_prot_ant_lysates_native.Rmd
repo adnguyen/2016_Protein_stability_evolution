@@ -1,0 +1,55 @@
+---
+title: "Analysis of whole ant protein lysates"
+author: "Andrew Nguyen"
+date: "2016-January-21"
+output: pdf_document
+---
+#Rationale
+#Objectives
+```{r libraries}
+library(plyr)
+library(ggplot2)
+```
+
+```{r load data}
+x<-read.csv("20160121_prot_native_aph_pog_buffer.csv")
+str(x)
+```
+
+#Differences among isolation methods and species
+```{r}
+mod1<-aov(total~Temperature*Species+Temperature*Buffer,data=x)
+summary(mod1)
+
+
+```
+
+#Figure
+```{r figure}
+T<-theme_bw()+theme(text=element_text(size=30),axis.text=element_text(size=30),panel.grid.major=element_blank(),panel.grid.minor.x = element_blank(),panel.grid = element_blank(),legend.key = element_blank())
+#ggplot(data=x,aes(x=Buffer,y=total))+geom_boxplot()
+
+parsed<-ddply(x,.(Temperature,Species,Buffer),summarize,total=mean(na.exclude(total)),prop=mean(na.exclude(prop)))
+
+ggplot(parsed,aes(x=Temperature,y=prop,color=factor(Species),shape=factor(Buffer)))+geom_point(size=6)+geom_line()+T+scale_y_continuous("Proportion of proteins non-denatured",limits=c(.3,1),breaks=seq(.1,1,.1))+scale_x_continuous("Temperature",limits=c(20,80),breaks=seq(20,80,10))
+
+#write.csv(parsed,"test.csv")
+#fitting curve 
+#y = a/(1+bc^-x)
+#a=1
+#c=.1
+#1/(1+b*(.1^-Temperature))
+test<-read.csv("test.csv")
+nls(prop~1/(1+exp(-b*Temperature)),data=test[1:8,],start=list(b=-10),trace=TRUE,control=nls.control(warnOnly = TRUE, tol = 1e-05, maxiter=1000))
+
+gl.mod<-glm(prop~Temperature,family=Gamma,data=test[1:8,])
+summary(gl.mod)
+
+
+Temperature<-data.frame(seq(25,80,1));names(Temperature)<-"Temperature"
+val<-predict(gl.mod,type="response",newdata=Temperature)
+
+plot(test[1:8,2],test[1:8,6])
+lines(Temperature[,1],val)
+```
+

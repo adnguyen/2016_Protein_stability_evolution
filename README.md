@@ -9,13 +9,13 @@ File layouts:
 
 
 /Data/     
-1) I have arranged all the raw data by year. They are formatted as excel files. 
+1) I have arranged all the raw data by year. They are formatted as excel files.      
 2) Data in csv format that is  outside the year subdirectories are used for analysis in the Scripts_analysis directory. 
 
 /Script_analysis/    
 1) This is where all the magic happens. I have preliminary scripts so far. I fit unfolding curves and estimate the melting temperatures and slope. I use R markdown. 
 
 /Results/    
-1) Powerpoint slides of the PAGE gels we run
-2) Figures 
-3) Output from the Script_analysis
+1) Powerpoint slides of the PAGE gels we run    
+2) Figures    
+3) Output from the Script_analysis    

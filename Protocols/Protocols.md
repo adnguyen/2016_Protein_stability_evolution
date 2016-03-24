@@ -73,7 +73,7 @@ relevent ref:
  * Qubit protein assay: https://www.thermofisher.com/order/catalog/product/Q33211    
  * Bullet blender (Next Advance)  http://www.nextadvance.com/product/bullet-blender-standard/    
  * 1.4 mm Zirconium silicate grinding beads (Quackenbush co., inc.) : http://www.quackco.com/qbzirc.htm      
- * 2mL Homogenizing tubes (Sarstedt, Germany? ): https://www.sarstedt.com/en/products/laboratory/screw-cap-micro-tubes-reaction-tubes/screw-cap-micro-tubes/product/72608/      
+ * 2mL Homogenizing tubes (Sarstedt, Germany? ): https://www.sarstedt.com/en/products/laboratory/screw-cap-micro-tubes-reaction-tubes/screw-cap-micro-tubes/product/72608/          
 **Steps:**    
 1. Homogenize ants or your favorite ectotherm    
  * Add flash frozen ants into homogenizing tubes with 400 uL covaris superb buffer with 5x protease inhibitors   
@@ -89,7 +89,7 @@ relevent ref:
 
 <div id='id-section4'/>
 ##Protein unfolding assay through ultracentrifugation       
-**Everything needs to be on ice!!!**    
+**Everything needs to be on ice!!!**     
 **Steps:**         
 1. Homogenize ants or your favorite ectotherm    
  * Add flash frozen ants into homogenizing tubes with 400 uL covaris superb buffer with 5x protease inhibitors   

@@ -72,7 +72,7 @@ relevent ref:
  * Bradford assay: http://www.bio-rad.com/en-us/product/bradford-protein-assay?pcp_loc=catprod    
  * Qubit protein assay: https://www.thermofisher.com/order/catalog/product/Q33211    
  * Bullet blender (Next Advance)  http://www.nextadvance.com/product/bullet-blender-standard/    
- * 1.4 mm Zirconium silicate grinding beads (Quackenbush co., inc.) : http://www.quackco.com/qbzirc.htm
+ * 1.4 mm Zirconium silicate grinding beads (Quackenbush co., inc.) : http://www.quackco.com/qbzirc.htm      
  * 2mL Homogenizing tubes (Sarstedt, Germany? ): https://www.sarstedt.com/en/products/laboratory/screw-cap-micro-tubes-reaction-tubes/screw-cap-micro-tubes/product/72608/  
 ------
 

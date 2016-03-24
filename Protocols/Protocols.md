@@ -10,8 +10,8 @@ Updated: 20160324
 # Table of content
 - [Initial Notes](#id-section1)
 - [Making buffers for protein isolations](#id-section2)
-- [Protein unfolding assay through centrifugation](#id-section3)
-- [Protein unfolding assay through qPCR](#id-section4)
+- [Protein unfolding assay through qPCR](#id-section3)
+- [Protein unfolding assay through centrifugation](#id-section4)
 - [Trypsin Digestion](#id-section5)
 - [Tandem Mass Tag (TMT) labeling](#id-section6)
 
@@ -51,12 +51,26 @@ We use the covaris superB buffer which is optimized for isolating Native protein
 |EGTA|500 mM|10 mM|20 uL|
 Total|||1 mL|
 
-
-
 <div id='id-section3'/>
-##Protein unfolding assay through centrifugation
+##Protein unfolding assay through qPCR (also known as thermal stability shift assay
+relevent ref:
+ * Niesen FH, Berglund H, Vedadi M. 2007. The use of differential scanning fluorimetry to detect ligand interactions that promote protein stability. Nat. Protocols 2:2212–2221.
+
+**Notes, reagents.**     
+ * fluorescent dye: https://www.thermofisher.com/order/catalog/product/S6650
+ * ABI steponeplus machine: https://www.thermofisher.com/order/catalog/product/4376600      
+ * 96 well Fast microamp plate: https://www.thermofisher.com/order/catalog/product/4346906      
+
+
 <div id='id-section4'/>
-##Protein unfolding assay through qPCR
+##Protein unfolding assay through centrifugation       
+###workflow:    
+1. Homogenize ants or your favorite ectotherm     
+2. Quantify protein concentration
+3. 
+
+
+Steps
 
 <div id='id-section5'/>
 ##Trypsin Digestion

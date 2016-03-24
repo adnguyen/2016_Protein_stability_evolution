@@ -1,5 +1,5 @@
 #Protocols for anything related to protein stability     
-Initiated: 20160324
+Initiated: 20160324      
 Updated: 20160324
  
 
@@ -15,10 +15,12 @@ Updated: 20160324
 ##Initial notes:    
 1) Mechanical forces and bubbles can denature proteins. Be careful in how you pipette.     
 2) Minimize contamination: don't touch your face and phone with your gloves and then continue to handle samples   
-3) 
+3) **Everything is done on COLD ICE unless specified otherwise**
+
 <div id='id-section2'/>
 ##Making buffers: 
-### We use 
+
+We use a commercial buffer SuperB by Covaris Inc with protease inhibitors . 
 
 ###Reagents
 

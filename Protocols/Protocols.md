@@ -80,9 +80,11 @@ relevent ref:
  * Place in bullet blender and homogenize for 15 s, top speed; immediately place on ice    
 
 2. Centrifuge 4 C for 5 minutes to remove large particulates and transfer supernatant to ultracentrifuge tube.     
-3. Ultracentrifuge 100,000 g at 4 C   
+3. Ultracentrifuge 100,000 g at 4 C     
 4. Quantify protein concentration  with bradford or qubit    
 5. 
+
+
 ------
 
 <div id='id-section4'/>
@@ -91,7 +93,7 @@ relevent ref:
 **Steps:**         
 1. Homogenize ants or your favorite ectotherm    
  * Add flash frozen ants into homogenizing tubes with 400 uL covaris superb buffer with 5x protease inhibitors   
- * Place in bullet blender and homogenize for 15 s, top speed; immediately place on ice
+ * Place in bullet blender and homogenize for 15 s, top speed; immediately place on ice      
 
 2. Centrifuge 4 C for 5 minutes to remove large particulates and transfer supernatant to ultracentrifuge tube.     
 3. Ultracentrifuge 100,000 g at 4 C        

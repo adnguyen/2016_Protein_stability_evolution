@@ -83,7 +83,7 @@ relevent ref:
 **Everything needs to be on ice!!!**    
 **Steps:**         
 1. Homogenize ants or your favorite ectotherm    
-  * Add   
+ * Add   
 2. Centrifuge 4 C for 5 minutes to remove large particulates and transfer supernatant to ultracentrifuge tube. 
 3. Ultracentrifuge 100,000 g at 4 C     
 5. Quantify protein concentration     

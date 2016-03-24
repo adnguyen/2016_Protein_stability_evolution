@@ -105,8 +105,8 @@ relevent ref:
  * Have 4-6 replicates per temperature treatment    
  * Save 2-3 replicates to show that your treatments aren't lost and Ultracentrifuge 100,000 g at 4 C  for the rest of the replicates      
 6. Quantify protein concentration and run samples on polyacrylamide gels.    
- *The temperature treated, non centrifuged samples (we refer to them as "TOtal") should not decrease in concentration      
- * You should detect temperature depedent unfolding across temperatures after ultracentrifugation (fraction non-denatured)     
+ * The temperature treated, non centrifuged samples (we refer to them as "TOtal") should not decrease in concentration      
+ * You should detect temperature depedent unfolding across temperatures after ultracentrifugation (fraction non-denatured)       
  
 
 

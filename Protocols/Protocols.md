@@ -1,11 +1,15 @@
 #Protocols for anything related to protein stability     
+
+
+Authors: Amanda S. Meyer, Andrew Nguyen     
+
 Initiated: 20160324      
 Updated: 20160324
  
 
 # Table of content
 - [Initial Notes](#id-section1)
-- [Making buffers](#id-section2)
+- [Making buffers for protein isolations](#id-section2)
 - [Protein unfolding assay through centrifugation](#id-section3)
 - [Protein unfolding assay through qPCR](#id-section4)
 - [Trypsin Digestion](#id-section5)
@@ -18,7 +22,7 @@ Updated: 20160324
 3) **Everything is done on COLD ICE unless specified otherwise**
 
 <div id='id-section2'/>
-##Making buffers: 
+##Making buffers for protein isoaltions: 
 
 We use a commercial buffer SuperB by Covaris Inc with protease inhibitors . 
 

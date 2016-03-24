@@ -37,7 +37,7 @@ Covaris superB buffer: http://covarisinc.com/products/cryoprep-extraction/extrac
 We use the covaris superB buffer which is optimized for isolating Native proteins with 5x protease inhibitors    
 
 
-|Reagent| Initial Conc.| Final conc| add for 1 mL |
+|Reagent| Initial Conc.| Final conc| vol to add for 1 mL |
 |---|---|---|---|
 |Covaris superB buffer| 1X| less than 1x| |
 |Pepstatin|
@@ -45,6 +45,7 @@ We use the covaris superB buffer which is optimized for isolating Native protein
 |PMSF|100x| 5x| 50 uL|
 |EDTA||||
 |EGTA||||
+Total||||1 mL|
 
 
 

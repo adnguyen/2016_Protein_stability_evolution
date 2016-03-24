@@ -84,15 +84,15 @@ relevent ref:
 **Steps:**         
 1. Homogenize ants or your favorite ectotherm    
  * Add   
-2. Centrifuge 4 C for 5 minutes to remove large particulates and transfer supernatant to ultracentrifuge tube. 
-3. Ultracentrifuge 100,000 g at 4 C     
-5. Quantify protein concentration     
-4. Temperature 50-100 ug of protein (in 50-100 uL vol, so 1 ug/ uL)  treat (in a thermocycler) over 10 points: 15, 20, 25, 30, 35, 40, 45, 50, 55, 60 C     
-  * Have 4-6 replicates per temperature treatment    
+2. Centrifuge 4 C for 5 minutes to remove large particulates and transfer supernatant to ultracentrifuge tube.     
+3. Ultracentrifuge 100,000 g at 4 C        
+5. Quantify protein concentration        
+4. Temperature 50-100 ug of protein (in 50-100 uL vol, so 1 ug/ uL)  treat (in a thermocycler) over 10 points: 15, 20, 25, 30, 35, 40, 45, 50, 55, 60 C      
+ * Have 4-6 replicates per temperature treatment    
 5. Save 2-3 replicates to show that your treatments aren't lost and Ultracentrifuge 100,000 g at 4 C  for the rest of the replicates      
-6. Quantify protein concentration and run samples on polyacrylamide gels.  
-  *The temperature treated, non centrifuged samples (we refer to them as "TOtal") should not decrease in concentration
-  * YOu should detect temperature depedent unfolding across temperatures after ultracentrifugation (fraction non-denatured) 
+6. Quantify protein concentration and run samples on polyacrylamide gels.    
+ *The temperature treated, non centrifuged samples (we refer to them as "TOtal") should not decrease in concentration      
+ * YOu should detect temperature depedent unfolding across temperatures after ultracentrifugation (fraction non-denatured)     
  
 
 

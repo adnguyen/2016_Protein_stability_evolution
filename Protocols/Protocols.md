@@ -39,12 +39,12 @@ We use the covaris superB buffer which is optimized for isolating Native protein
 
 |Reagent| Initial Conc.| Final conc| vol to add for 1 mL |
 |---|---|---|---|
-|Covaris superB buffer| 1X| less than 1x| |
+|Covaris superB buffer|1x | ~1x| 900 uL|
 |Pepstatin|1000x|5x|5 uL|
 |Leupeptin|1000x|5x|5 uL |
 |PMSF|100x| 5x| 50 uL||
-|EDTA|500 mM|10 mM||
-|EGTA|500 mM|10 mM||
+|EDTA|500 mM|10 mM|20 uL|
+|EGTA|500 mM|10 mM|20 uL|
 Total|||1 mL|
 
 

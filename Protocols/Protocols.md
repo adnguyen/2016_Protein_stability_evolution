@@ -6,6 +6,7 @@ Authors: Amanda S. Meyer, Andrew Nguyen
 Initiated: 20160324      
 Updated: 20160324
  
+------
 
 # Table of content
 - [Initial Notes](#id-section1)
@@ -14,12 +15,14 @@ Updated: 20160324
 - [Protein unfolding assay through centrifugation](#id-section4)
 - [Trypsin Digestion](#id-section5)
 - [Tandem Mass Tag (TMT) labeling](#id-section6)
-
+------
 <div id='id-section1'/>
 ##Initial notes:    
 1) Mechanical forces and bubbles can denature proteins. Be careful in how you pipette.     
 2) Minimize contamination: don't touch your face and phone with your gloves and then continue to handle samples   
 3) **Everything is done on COLD ICE unless specified otherwise**
+
+------
 
 <div id='id-section2'/>
 ##Making buffers for protein isolations: 
@@ -51,6 +54,8 @@ We use the covaris superB buffer which is optimized for isolating Native protein
 |EGTA|500 mM|10 mM|20 uL|
 Total|||1 mL|
 
+------
+
 <div id='id-section3'/>
 ##Protein unfolding assay through qPCR (also known as thermal stability shift assay
 relevent ref:
@@ -61,6 +66,7 @@ relevent ref:
  * ABI steponeplus machine: https://www.thermofisher.com/order/catalog/product/4376600      
  * 96 well Fast microamp plate: https://www.thermofisher.com/order/catalog/product/4346906      
 
+------
 
 <div id='id-section4'/>
 ##Protein unfolding assay through centrifugation       
@@ -70,11 +76,12 @@ relevent ref:
 3. 
 
 
-Steps
+Steps    
 
+------
 <div id='id-section5'/>
 ##Trypsin Digestion
-
+------
 
 <div id='id-section6'/>
 ##Tandem Mass Tag (TMT) labeling

@@ -22,7 +22,7 @@ Updated: 20160324
 3) **Everything is done on COLD ICE unless specified otherwise**
 
 <div id='id-section2'/>
-##Making buffers for protein isoaltions: 
+##Making buffers for protein isolations: 
 
 We use a commercial buffer SuperB by Covaris Inc with protease inhibitors . 
 

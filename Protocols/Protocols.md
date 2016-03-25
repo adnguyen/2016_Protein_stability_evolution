@@ -123,14 +123,19 @@ relevent ref:
 * Handcast system (he Mini-PROTEAN® Tetra handcast systems): http://www.bio-rad.com/en-ch/product/electrophoresis-chambers/mini-protean-tetra-handcast-systems    
  
 **Steps:**
-Making a PAGE
+Making a PAGE     
+
 1. Clean two 125 mL earlemeyer flasks so that you can make a separating and stacking gel
 2. Prep hand cast: clean with soap and water, spray with ethanol; don't touch the glass plates with gloves
 3. Recipe for making separating gel (columns with percentages are volumes to add for the reagent in the row) 
 
+Separating buffer recipe: 
+
 |Reagent| 7.5% | 10%| 12%|
 |---|---|---|---|
-|Acryl bis 37.5:1|1.9|2.5|3.0|
+|Acryl bis 37.5:1|1.9 mL |2.5 mL |3.0 mL|
+|Separating Buffer| 1.9 mL | 1.9 mL| 1.9 mL|
+|dd H_20| 
 ------
 
 

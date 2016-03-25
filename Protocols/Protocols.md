@@ -168,7 +168,10 @@ I need pictures for all of this....
 <div id='id-section6'/>
 ##Trypsin Digestion of stained proteins in polyacrylamide gels in preparation for Mass Spectrometry 
 
+###Steps:
+
 **Note: OK Stopping Points = OSP!**     
+
 1)	Clean a large glass plate with 70% ethanol (until squeaky clean). Let the plate dry.     
 2)	Put about 1 mL HPLC water on plate, and then place gel on top of water. Also, put some HPLC water on top of gel (~500 uL).     
 3)	Label a 1.5 mL or 0.6 mL (low resistence) microcentrifuge tube for each protein band/spot to be analyzed. 
@@ -234,6 +237,26 @@ I need pictures for all of this....
 8)	Add 120 uL (or enough to cover gel pieces) of 100% acetonitrile to the gel pieces. Incubate at room temperature for 10 minutes. Remove and discard acetonitrile, and then repeat (#8).    
 9)	Speed vac gel pieces for 5 minutes to dry (completely dry).      
 10)	Move on to trypsin digestion.      
+
+###Trypsin Digestion :
+
+###Extracting Tryptic peptides:
+1.	Briefly (30 s) spin tube containing in-gel digestion.
+2.	Label new 0.6mL tube (could use 1.5mL tube if needed) low resistance. 
+3.	Pipet off (of the gel pieces) the tryptic digest solution and place in the respective (new) 0.6mL tube (Labeling is critical here! – transferring to the wrong tube is where most mistakes are made).
+4.	TO THE GEL PIECES add 100-150uL (make sure to add same amount to each sample) of extraction solution (50% acetonitrile, 2.5% formic acid)
+a.	Quickly vortex tube. 
+5.	Incubate at room temperature for 55 minutes. Spin gel pieces with extraction solution in microcentrifuge at full speed for 5 minutes. 
+6.	Remove extraction solution and combine it to the digest solution in the appropriate 0.6mL tube. 
+7.	TO THE GEL PIECES add 100 uL of 100% acetonitrile – again they should be completely covered (KEEP LIDS CLOSED in between pipetting). Quickly vortex and flip liquid to bottom of tube. Let sit on bench for 10 minutes. The gel pieces may begin to turn whitish – Flick to get gel pieces dislodged. 
+8.	Briefly spin tubes.
+9.	Combine the 100% acetonitrile solutions to the appropriate 0.6mL tubes. (Pipette up and down to mix).
+10.	Add 50 uL of 100% MeCN (acetonitrile) to the gel pieces. Incubate at room temperature for 10 minutes. Spin tubes for 30 s at max speed. Remove MeCN and add to tubes with the tryptic digestion solution. 
+11.	Keep gel pieces until you have MS results in case the digestion didn’t work properly (store at -80C). The digestion won’t work well if pH is off, if it is too hot or too cold, or if the gel pieces become too thirsty (dehydrated).
+12.	Quickly vortex 0.6mL tubes and briefly spin them (need to use 1.5mL tube sleeve in microcentrifuge). 
+13.	Speed-vac 0.6mL tubes to dryness (this takes a long time). 
+14.	If tubes have a white residue on the inside of the tubes or white pellet, add 20 uL of 50% acetonitrile, 50% HPLC water, and speed vac until dried. Repeat until there is no longer any white residue. The white residue is salt from the ammonium bicarbonate. This can affect labeling and LC-MS/MS analysis. 
+15.	Freeze 0.6mL tubes at -20 or -80oC until labeling and/or LC-MS/MS analysis.
 
 ------
 

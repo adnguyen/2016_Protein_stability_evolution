@@ -243,7 +243,7 @@ I need pictures for all of this....
 10)	Move on to trypsin digestion.      
 
 ###Trypsin Digestion :
-1.	Place the tubes on ice for 5 minutes. Add 35 uL of trypsin solution. Add 50 uL of 100 mM ammonium bicarbonate to completely cover gel pieces.
+1)	Place the tubes on ice for 5 minutes. Add 35 uL of trypsin solution. Add 50 uL of 100 mM ammonium bicarbonate to completely cover gel pieces.
 
  * Recipe for trypsin solution   
   
@@ -256,10 +256,10 @@ I need pictures for all of this....
 |MeCN (acetonitrile)| 100%| 5%| 10 uL|
 
 
-2.	Incubate the tubes on ice for 15 minutes. 
-3.	Transfer the tubes to a 37oC incubator. Incubate the tubes OVERNIGHT (8-16 hours). Don’t incubate more than 18 hours!!
+2)	Incubate the tubes on ice for 15 minutes. 
+3)	Transfer the tubes to a 37oC incubator. Incubate the tubes OVERNIGHT (8-16 hours). Don’t incubate more than 18 hours!!
 **---> OSP!!**
-4.	Store the tubes in the refrigerator (4oC) or continue with extractions. Note: Can freeze at -80oC for longer term storage. 
+4)	Store the tubes in the refrigerator (4oC) or continue with extractions. Note: Can freeze at -80oC for longer term storage. 
 **---> OSP!!**    
 
 ###Extracting Tryptic peptides:
@@ -285,3 +285,21 @@ a.	Quickly vortex tube.
 
 <div id='id-section7'/>
 ##Tandem Mass Tag (TMT) labeling
+**All pipetting needs to be extremely accurate in this part of the protocol. **
+1.	Add 102.5 uL of 100 mM TEAB (triethyl ammonium bicarbonate) to each dried sample. 
+2.	Briefly vortex tubes. 
+3.	Equilibrate the TMT labeling reagents to room temperature (at least 5 minutes). Spin labeling reagents down at max speed for 2 minutes. 
+
+ * **This part is very important. If labeling reagents are not equilibrated to room temperature then moisture condensation can occur and the reagents will be affected. The reagents are a powder and need to be spun down to prevent loss of reagents when opening the tubes. **
+
+
+4.	Add 41 uL of anhydrous (100%) acetonitrile to each labeling reagent tube. Dissolve labeling reagent in anhydrous acetonitrile for 5 minutes, shaking, at room temperature. 
+5.	Carefully add all 41 uL of each labeling reagent to its respective sample. 
+6.	Incubate samples with labeling reagents added at room temperature for 1 hour, shaking. 
+7.	Add 8 uL of 5% hydroxylamine to each sample with labeling reagent added.
+
+ * **This is important step. The hydroxylamine will quench the labeling reaction, thus preventing cross-labeling when the samples are combined. **
+
+8.	Incubate at room temperature, shaking, for 15 minutes. 
+9.	Combine the samples in a clean, low resistance 1.5 mL microfuge tube. 
+10.	Dry down sample using speed vac, then store at -80C until LC-MS/MS analysis. 

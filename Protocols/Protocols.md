@@ -135,7 +135,9 @@ Separating buffer recipe:
 |---|---|---|---|
 |Acryl bis 37.5:1|1.9 mL |2.5 mL |3.0 mL|
 |Separating Buffer| 1.9 mL | 1.9 mL| 1.9 mL|
-|dd H_20| 
+|dd H_20| 3.7 mL| 3.1 mL| 2.6 mL|
+|10 % APS| 50 uL | 50 uL| 50 uL|
+|TEMED| 5 uL | 5 uL| 5 uL|
 ------
 
 

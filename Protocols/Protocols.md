@@ -13,8 +13,9 @@ Updated: 20160324
 - [Making buffers for protein isolations](#id-section2)
 - [Protein unfolding assay through qPCR](#id-section3)
 - [Protein unfolding assay through centrifugation](#id-section4)
-- [Trypsin Digestion](#id-section5)
-- [Tandem Mass Tag (TMT) labeling](#id-section6)
+- [Making Polyacrylamide gels](#id-section5)
+- [Trypsin Digestion](#id-section6)
+- [Tandem Mass Tag (TMT) labeling](#id-section7)
  
 
 ------
@@ -29,7 +30,7 @@ Updated: 20160324
 <div id='id-section2'/>
 ##Making buffers for protein isolations: 
 
-We use a commercial buffer SuperB by Covaris Inc with protease inhibitors . 
+We use a commercial buffer SuperB by Covaris Inc with protease inhibitors to isolate "native" proteins. 
 
 ###Reagents
 Protease Inhibitors:   
@@ -73,8 +74,6 @@ relevent ref:
  * Bullet blender (Next Advance)  http://www.nextadvance.com/product/bullet-blender-standard/    
  * 1.4 mm Zirconium silicate grinding beads (Quackenbush co., inc.) : http://www.quackco.com/qbzirc.htm      
  * 2mL Homogenizing tubes (Sarstedt, Germany? ): https://www.sarstedt.com/en/products/laboratory/screw-cap-micro-tubes-reaction-tubes/screw-cap-micro-tubes/product/72608/     
-
-
 **Steps:**    
 
 1. Homogenize ants or your favorite ectotherm    
@@ -83,8 +82,7 @@ relevent ref:
 
 2. Centrifuge 4 C for 5 minutes to remove large particulates and transfer supernatant to ultracentrifuge tube.     
 3. Ultracentrifuge 100,000 g at 4 C     
-4. Quantify protein concentration  with bradford or qubit    
-5. 
+4. Quantify protein concentration  with bradford or qubit     
 
 
 ------
@@ -111,10 +109,19 @@ relevent ref:
 
 ------
 <div id='id-section5'/>
+##Making polyacrylamide gels and electrophoresis    
+
+
+------
+
+
+
+<div id='id-section6'/>
 ##Trypsin Digestion
 
 
 ------
 
-<div id='id-section6'/>
+
+<div id='id-section7'/>
 ##Tandem Mass Tag (TMT) labeling

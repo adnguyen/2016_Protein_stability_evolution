@@ -213,7 +213,7 @@ I need pictures for all of this....
  * **Repeat acetonitrile step (#9)**     
 
 
-11.	Keep the tube cap open and let the gel dry completely for 5 minutes at room temperature (this can be longer; hours to dry = ok) or speed vac for 2 minutes.     
+11)	Keep the tube cap open and let the gel dry completely for 5 minutes at room temperature (this can be longer; hours to dry = ok) or speed vac for 2 minutes.     
 
 
 **---> OSP!!**

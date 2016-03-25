@@ -33,11 +33,10 @@ We use a commercial buffer SuperB by Covaris Inc with protease inhibitors .
 
 ###Reagents
 Protease Inhibitors:   
-* Pepstatin-    
-* Leupeptin-    
-* Phenylmethylsulfonyl fluoride (PMSF)     
-* EDTA
-* EGTA
+* Pepstatin and Leupeptin- https://us.vwr.com/store/catalog/product.jsp?product_id=7805764           
+* Phenylmethylsulfonyl fluoride (PMSF)- http://www.sigmaaldrich.com/catalog/product/sigma/p7626?lang=en&region=US          
+* 0.5 M EDTA  http://www.affymetrix.com/estore/esearch/search.jsp?pd=130309&N=4294967293    
+* 0.5 M EGTA  https://www.alfa.com/en/catalog/J60767/     
 
 Covaris superB buffer: http://covarisinc.com/products/cryoprep-extraction/extraction-buffers/     
 

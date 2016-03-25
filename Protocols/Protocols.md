@@ -284,13 +284,15 @@ a.	Quickly vortex tube.
 
 
 <div id='id-section7'/>
-##Tandem Mass Tag (TMT) labeling
-**All pipetting needs to be extremely accurate in this part of the protocol. **
+##Tandem Mass Tag (TMT) labeling   
+**All pipetting needs to be extremely accurate in this part of the protocol. **     
+
+
 1.	Add 102.5 uL of 100 mM TEAB (triethyl ammonium bicarbonate) to each dried sample. 
 2.	Briefly vortex tubes. 
 3.	Equilibrate the TMT labeling reagents to room temperature (at least 5 minutes). Spin labeling reagents down at max speed for 2 minutes. 
 
- * **This part is very important. If labeling reagents are not equilibrated to room temperature then moisture condensation can occur and the reagents will be affected. The reagents are a powder and need to be spun down to prevent loss of reagents when opening the tubes. **
+ * ***This part is very important. If labeling reagents are not equilibrated to room temperature then moisture condensation can occur and the reagents will be affected. The reagents are a powder and need to be spun down to prevent loss of reagents when opening the tubes.***      
 
 
 4.	Add 41 uL of anhydrous (100%) acetonitrile to each labeling reagent tube. Dissolve labeling reagent in anhydrous acetonitrile for 5 minutes, shaking, at room temperature. 

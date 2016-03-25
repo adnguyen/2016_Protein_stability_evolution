@@ -142,11 +142,9 @@ Separating gel recipe for each gel:
 
 4. Quickly pipette ~4 mL into hand cast set up and add a layer of butanol so that the gel is horizontally even as it polymerizes (15-30 minutes? ) 
 5. As the separating gel is polymerizing, make stacking gel  
+* Stacking gel recipe for each gel: 
 
-
-Stacking gel recipe for each gel: 
-
-|Reagent| 4.2 % |
+* |Reagent| 4.2 % |
 |---|---|---|---|
 |Acryl bis 37.5:1|0.7 mL |
 |Stacking Buffer| 1.3 mL | 

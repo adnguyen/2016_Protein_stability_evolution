@@ -109,9 +109,28 @@ relevent ref:
 
 ------
 <div id='id-section5'/>
-##Making polyacrylamide gels and electrophoresis    
+##Making polyacrylamide gels and electrophoresis(PAGE)     
 
+**Reagents and notes:**     
 
+* Acryl bis 37.5:1 - https://www.nationaldiagnostics.com/electrophoresis/product/protogel-30     
+* Stacking buffer - 0.5 M Tris pH 6.83 0.5% SDS
+* Separating buffer - 3M Tris Hcl (pH 8.8) 10% SDS   
+* dd H20 
+* 10% APS - 
+* TEMED - http://www.sigmaaldrich.com/catalog/product/sigma/t9281?lang=en&region=US    
+* Gel apparatus (Tetracell): http://www.bio-rad.com/en-us/category/vertical-apparatus?pcp_loc=catprod     
+* Handcast system (he Mini-PROTEAN® Tetra handcast systems): http://www.bio-rad.com/en-ch/product/electrophoresis-chambers/mini-protean-tetra-handcast-systems    
+ 
+**Steps:**
+Making a PAGE
+1. Clean two 125 mL earlemeyer flasks so that you can make a separating and stacking gel
+2. Prep hand cast: clean with soap and water, spray with ethanol; don't touch the glass plates with gloves
+3. Recipe for making separating gel (columns with percentages are volumes to add for the reagent in the row) 
+
+|Reagent| 7.5% | 10%| 12%|
+|---|---|---|---|
+|Acryl bis 37.5:1|1.9|2.5|3.0|
 ------
 
 

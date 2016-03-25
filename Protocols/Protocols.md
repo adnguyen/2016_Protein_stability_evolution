@@ -167,6 +167,10 @@ I need pictures for all of this....
 
 <div id='id-section6'/>
 ##Trypsin Digestion of stained proteins in polyacrylamide gels in preparation for Mass Spectrometry 
+**Reagents and notes: ** 
+* Trypsin
+* 
+
 
 ###Steps:
 
@@ -239,6 +243,22 @@ I need pictures for all of this....
 10)	Move on to trypsin digestion.      
 
 ###Trypsin Digestion :
+1.	Place the tubes on ice for 5 minutes. Add 35 uL of trypsin solution. Add 50 uL of 100 mM ammonium bicarbonate to completely cover gel pieces.
+
+ * Recipe for trypsin solution 
+|Reagent|Inital conc.| Final conc.|volume for 1 rxn|
+|---|---|---|---|
+|Trypsin| 20ug/50uL| 20ug in 196 uL| 1 uL|
+|TEAB (triethyl ammonium bicarbonate)|100 mM? |40 mM?|80 uL|  
+|HPLC H20| ||100 uL|
+|MeCN (acetonitrile)| 100%| 5%| 10 uL|
+
+
+2.	Incubate the tubes on ice for 15 minutes. 
+3.	Transfer the tubes to a 37oC incubator. Incubate the tubes OVERNIGHT (8-16 hours). Don’t incubate more than 18 hours!!
+**---> OSP!!**
+4.	Store the tubes in the refrigerator (4oC) or continue with extractions. Note: Can freeze at -80oC for longer term storage. 
+**---> OSP!!**    
 
 ###Extracting Tryptic peptides:
 1.	Briefly (30 s) spin tube containing in-gel digestion.

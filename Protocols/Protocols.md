@@ -179,9 +179,19 @@ I need pictures for all of this....
 
 **---> OSP!!** 
 
-5)	Centrifuge at high speed for 30 seconds. Carefully pipette off the water and discard it in the waste container provided (all waste goes into same container in this protocol → Water, acetonitrile, ammonium bicarbonate, etc). You do not need to change tips because the proteins are still in the gel. Be careful not to lose the gel pieces in this process.   
-6)	Add 500 uL of destain solution (50mM ammonium bicarbonate, 50% acetonitrile) to each tube. (When pipetting acetonitrile be careful to transfer it quickly from container to tube as it tends to leak from pipet tips). Close the tube cap and mix gently by inversion. Incubate the tubes at 37oC for 30 minutes (this can be longer). Destaining usually takes a long time. Be prepared to spend a couple of hours doing it.         
+5)	Centrifuge at high speed for 30 seconds. Carefully pipette off the water and discard it in the waste container provided
+ * (all waste goes into same container in this protocol → Water, acetonitrile, ammonium bicarbonate, etc).     
+ * You do not need to change tips because the proteins are still in the gel. 
+ * **Be careful not to lose the gel pieces in this process.**      
+6)	Add 500 uL of destain solution (50mM ammonium bicarbonate, 50% acetonitrile) to each tube. 
+ * When pipetting acetonitrile be careful to transfer it quickly from container to tube as it tends to leak from pipet tips.    
+ * Close the tube cap and mix gently by inversion. Incubate the tubes at 37oC for 30 minutes (this can be longer).    
+ * Destaining usually takes a long time. Be prepared to spend a couple of hours doing it.         
+
+ 
 **---> OSP!!**     
+
+
 7)	Repeat destain step until there is absolutely no blue color left in any of the gel pieces. (Acetonitrile is poisonous; do not throw it down the drain). Repeat one more time if needed. Change gloves if you get acetonitrile on them and wash skin with water if it contacts the acetonitrile.     
 8)	When the gel sample is clear and no longer contains blue color, centrifuge the tube at high speed for 30 seconds. Carefully remove all of the destain solution and discard it in the waste receptacle.     
 9)	Add 500uL of 100% acetonitrile to each tube. (The gel pieces should be entirely immersed, if not, add more). The gel pieces will turn white as they dehydrate. Incubate the tubes for 10 minutes at room temperature (no longer than 10 minutes!). If they don’t turn completely white then remove liquid and add more acetonitrile, then they will turn white.)      

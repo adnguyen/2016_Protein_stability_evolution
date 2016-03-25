@@ -1,10 +1,13 @@
 #Protocols for anything related to protein stability     
 
-
 Authors: Amanda S. Meyer, Andrew Nguyen     
 
 Initiated: 20160324      
 Updated: 20160324
+
+This work is done in collaboration with:    
+ * Dr. Bryan Ballif's lab http://www.uvm.edu/~bballif/      
+ * VGN proteomics facility https://vgn.uvm.edu/proteomics
  
 ------
 
@@ -285,7 +288,7 @@ a.	Quickly vortex tube.
 
 <div id='id-section7'/>
 ##Tandem Mass Tag (TMT) labeling   
-**All pipetting needs to be extremely accurate in this part of the protocol. **     
+**All pipetting needs to be extremely accurate in this part of the protocol.**     
 
 
 1.	Add 102.5 uL of 100 mM TEAB (triethyl ammonium bicarbonate) to each dried sample. 
@@ -300,7 +303,8 @@ a.	Quickly vortex tube.
 6.	Incubate samples with labeling reagents added at room temperature for 1 hour, shaking. 
 7.	Add 8 uL of 5% hydroxylamine to each sample with labeling reagent added.
 
- * **This is important step. The hydroxylamine will quench the labeling reaction, thus preventing cross-labeling when the samples are combined. **
+ * **This is important step. The hydroxylamine will quench the labeling reaction, thus preventing cross-labeling when the samples are combined.**       
+
 
 8.	Incubate at room temperature, shaking, for 15 minutes. 
 9.	Combine the samples in a clean, low resistance 1.5 mL microfuge tube. 

@@ -14,7 +14,7 @@ Updated: 20160324
 - [Protein unfolding assay through qPCR](#id-section3)
 - [Protein unfolding assay through centrifugation](#id-section4)
 - [Making Polyacrylamide gels](#id-section5)
-- [Trypsin Digestion](#id-section6)
+- [Trypsin Digestion of stained proteins in polyacrylamide gels in preparation for Mass Spectrometry ](#id-section6)
 - [Tandem Mass Tag (TMT) labeling](#id-section7)
  
 
@@ -157,12 +157,18 @@ Making a PAGE
 8) Add a comb; place it in tight; let polymerize    
 
 I need pictures for all of this....
+
+
+
+
 ------
 
 
 
 <div id='id-section6'/>
-##Trypsin Digestion
+##Trypsin Digestion of stained proteins in polyacrylamide gels in preparation for Mass Spectrometry 
+
+
 
 
 ------

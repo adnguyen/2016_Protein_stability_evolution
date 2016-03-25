@@ -218,7 +218,22 @@ I need pictures for all of this....
 
 **---> OSP!!**
 
+###Reduction of Disulfide Bonds
+1)	Add 120 uL of 10 mM DTT (diothiothreitol) in 100 mM ammonium bicarbonate (will probably need to dilute) to the dried gel pieces.    
+2)	Incubate at 56C for 1 hour. Make sure gel pieces are fully covered.     
 
+###Alkylation with Iodoacetamide 
+
+1)	Spin gel pieces down for 30 s at max speed. Remove and discard DTT.      
+2)	Add 120 uL of 55mM (10mg/mL) IAA (iodoacetimde) in 100 mM ammonium bicarbonate (will probably need to dilute). Make sure gel pieces are fully covered.     
+3)	Incubate gel pieces at room temperature for 45 minutes in the DARK.   
+4)	Spin down gel pieces for 30 s at max speed. Remove and discard IAA.      
+5)	Add 120 uL (or enough to cover gel pieces) of 100 mM ammonium bicarbonate to the gel pieces. Incubate at room temperature for 10 minutes.        
+6)	Remove and discard ammonium bicarbonate, and add 120 uL (or enough to cover gel pieces) of 100% acetonitrile to the gel pieces. Incubate at room temperature for 10 minutes. Remove and discard acetonitrile, and then repeat (#6).     
+7)	Add 120 uL of 100 mM ammonium bicarbonate or 100 mM TEAB to the gel pieces. Incubate at room temperature 10 minutes. Spin down gel pieces for 1 minute at max speed. Remove and discard ammonium bicarbonate.     
+8)	Add 120 uL (or enough to cover gel pieces) of 100% acetonitrile to the gel pieces. Incubate at room temperature for 10 minutes. Remove and discard acetonitrile, and then repeat (#8).    
+9)	Speed vac gel pieces for 5 minutes to dry (completely dry).      
+10)	Move on to trypsin digestion.      
 
 ------
 

@@ -180,7 +180,7 @@ I need pictures for all of this....
 **---> OSP!!** 
 
 5)	Centrifuge at high speed for 30 seconds. Carefully pipette off the water and discard it in the waste container provided
- * (all waste goes into same container in this protocol → Water, acetonitrile, ammonium bicarbonate, etc).     
+ * all waste goes into same container in this protocol → Water, acetonitrile, ammonium bicarbonate, etc.     
  * You do not need to change tips because the proteins are still in the gel. 
  * **Be careful not to lose the gel pieces in this process.**    
   
@@ -201,7 +201,8 @@ I need pictures for all of this....
 9)	Add 500uL of 100% acetonitrile to each tube. 
  * The gel pieces should be entirely immersed, if not, add more.     
  * The gel pieces will turn white as they dehydrate. 
- * Incubate the tubes for 10 minutes at room temperature (no longer than 10 minutes!). 
+ * Incubate the tubes for 10 minutes at room temperature (no longer than 10 minutes!).     
+  
    *If they don’t turn completely white then remove liquid and add more acetonitrile, then they will turn white.         
 
 

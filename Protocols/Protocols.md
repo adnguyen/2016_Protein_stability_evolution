@@ -126,9 +126,9 @@ relevent ref:
 **Steps:**
 Making a PAGE     
 
-1. Clean two 125 mL earlemeyer flasks so that you can make a separating and stacking gel
-2. Prep hand cast: clean with soap and water, spray with ethanol; don't touch the glass plates with gloves
-3. Recipe for making separating gel (columns with percentages are volumes to add for the reagent in the row) 
+1) Clean two 125 mL earlemeyer flasks so that you can make a separating and stacking gel
+2) Prep hand cast: clean with soap and water, spray with ethanol; don't touch the glass plates with gloves
+3) Recipe for making separating gel (columns with percentages are volumes to add for the reagent in the row) 
 
 Separating gel recipe for each gel: 
 
@@ -140,11 +140,11 @@ Separating gel recipe for each gel:
 |10 % APS| 50 uL | 50 uL| 50 uL|
 |TEMED| 5 uL | 5 uL| 5 uL|
 
-4. Quickly pipette ~4 mL into hand cast set up and add a layer of butanol so that the gel is horizontally even as it polymerizes (15-30 minutes? ) 
-5. As the separating gel is polymerizing, make stacking gel  
+4) Quickly pipette ~4 mL into hand cast set up and add a layer of butanol so that the gel is horizontally even as it polymerizes (15-30 minutes? ) 
+5) As the separating gel is polymerizing, make stacking gel  
  * Stacking gel recipe for each gel: 
 
-* |Reagent| 4.2 % |
+|Reagent| 4.2 % |
 |---|---|---|---|
 |Acryl bis 37.5:1|0.7 mL |
 |Stacking Buffer| 1.3 mL | 
@@ -152,9 +152,11 @@ Separating gel recipe for each gel:
 |10 % APS| 50 uL | 
 |TEMED| 5 uL | 
 
-6. Back to handcast: Pour off butanol into waste receptacle (It stinks)     
-7. Add stacking mix from step 5 to handcast and fill to brim    
-8. Add a comb; place it in tight        
+6) Back to handcast: Pour off butanol into waste receptacle (It stinks)     
+7) Add stacking mix from step 5 to handcast and fill to brim    
+8) Add a comb; place it in tight; let polymerize    
+
+I need pictures for all of this....
 ------
 
 

@@ -309,3 +309,6 @@ a.	Quickly vortex tube.
 8.	Incubate at room temperature, shaking, for 15 minutes. 
 9.	Combine the samples in a clean, low resistance 1.5 mL microfuge tube. 
 10.	Dry down sample using speed vac, then store at -80C until LC-MS/MS analysis. 
+
+LC-MS/MS:
+Q-Exactive Hybrid Quadupole-Orbitrap Mass Spectrometry  http://planetorbitrap.com/q-exactive#.VvW38hIrJTY    

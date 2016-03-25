@@ -182,7 +182,9 @@ I need pictures for all of this....
 5)	Centrifuge at high speed for 30 seconds. Carefully pipette off the water and discard it in the waste container provided
  * (all waste goes into same container in this protocol → Water, acetonitrile, ammonium bicarbonate, etc).     
  * You do not need to change tips because the proteins are still in the gel. 
- * **Be careful not to lose the gel pieces in this process.**      
+ * **Be careful not to lose the gel pieces in this process.**    
+  
+ 
 6)	Add 500 uL of destain solution (50mM ammonium bicarbonate, 50% acetonitrile) to each tube. 
  * When pipetting acetonitrile be careful to transfer it quickly from container to tube as it tends to leak from pipet tips.    
  * Close the tube cap and mix gently by inversion. Incubate the tubes at 37oC for 30 minutes (this can be longer).    

@@ -8,7 +8,7 @@ Updated: 20160324
  
 ------
 
-# Table of content
+# Table of contents
 - [Initial Notes](#id-section1)
 - [Making buffers for protein isolations](#id-section2)
 - [Protein unfolding assay through qPCR](#id-section3)

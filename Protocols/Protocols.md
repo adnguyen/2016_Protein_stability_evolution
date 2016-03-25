@@ -127,10 +127,10 @@ relevent ref:
 Making a PAGE     
           
 1) Clean two 125 mL earlemeyer flasks so that you can make a separating and stacking gel       
-2) Prep hand cast: clean with soap and water, spray with ethanol; don't touch the glass plates with gloves
-3) Recipe for making separating gel (columns with percentages are volumes to add for the reagent in the row) 
+2) Prep hand cast: clean with soap and water, spray with ethanol; don't touch the glass plates with gloves     
+3) Recipe for making separating gel (columns with percentages are volumes to add for the reagent in the row)    
 
-Separating gel recipe for each gel: 
+* Separating gel recipe for each gel: 
 
 |Reagent| 7.5% | 10%| 12%|
 |---|---|---|---|

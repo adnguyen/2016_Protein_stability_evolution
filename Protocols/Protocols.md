@@ -125,8 +125,8 @@ relevent ref:
  
 **Steps:**
 Making a PAGE     
-
-1) Clean two 125 mL earlemeyer flasks so that you can make a separating and stacking gel
+          
+1) Clean two 125 mL earlemeyer flasks so that you can make a separating and stacking gel       
 2) Prep hand cast: clean with soap and water, spray with ethanol; don't touch the glass plates with gloves
 3) Recipe for making separating gel (columns with percentages are volumes to add for the reagent in the row) 
 
@@ -140,7 +140,7 @@ Separating gel recipe for each gel:
 |10 % APS| 50 uL | 50 uL| 50 uL|
 |TEMED| 5 uL | 5 uL| 5 uL|
 
-4) Quickly pipette ~4 mL into hand cast set up and add a layer of butanol so that the gel is horizontally even as it polymerizes (15-30 minutes? ) 
+4) Quickly pipette ~4 mL into hand cast set up and add a layer of butanol so that the gel is horizontally even as it polymerizes (15-30 minutes? )       
 5) As the separating gel is polymerizing, make stacking gel  
  * Stacking gel recipe for each gel: 
 

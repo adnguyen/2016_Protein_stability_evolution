@@ -197,6 +197,8 @@ I need pictures for all of this....
 7)	Repeat destain step until there is absolutely no blue color left in any of the gel pieces. 
  * Acetonitrile is poisonous; do not throw it down the drain.      
  * Repeat one more time if needed. Change gloves if you get acetonitrile on them and wash skin with water if it contacts the acetonitrile.      
+
+
 8)	When the gel sample is clear and no longer contains blue color, centrifuge the tube at high speed for 30 seconds. Carefully remove all of the destain solution and discard it in the waste receptacle.     
 9)	Add 500uL of 100% acetonitrile to each tube. 
  * The gel pieces should be entirely immersed, if not, add more.     
@@ -207,8 +209,13 @@ I need pictures for all of this....
 
 
 
-10)	Centrifuge for 30 seconds and carefully pipet off all of the acetonitrile. Discard in the provided waste receptacle. Use a 200uL pipettor to carefully remove the residual liquid from the tube. Repeat acetonitrile step (#9)     
+10)	Centrifuge for 30 seconds and carefully pipet off all of the acetonitrile. Discard in the provided waste receptacle. Use a 200uL pipettor to carefully remove the residual liquid from the tube. 
+ * **Repeat acetonitrile step (#9)**     
+
+
 11.	Keep the tube cap open and let the gel dry completely for 5 minutes at room temperature (this can be longer; hours to dry = ok) or speed vac for 2 minutes.     
+
+
 **---> OSP!!**
 
 

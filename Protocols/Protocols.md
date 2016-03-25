@@ -245,7 +245,9 @@ I need pictures for all of this....
 ###Trypsin Digestion :
 1.	Place the tubes on ice for 5 minutes. Add 35 uL of trypsin solution. Add 50 uL of 100 mM ammonium bicarbonate to completely cover gel pieces.
 
- * Recipe for trypsin solution 
+ * Recipe for trypsin solution   
+  
+ 
 |Reagent|Inital conc.| Final conc.|volume for 1 rxn|
 |---|---|---|---|
 |Trypsin| 20ug/50uL| 20ug in 196 uL| 1 uL|

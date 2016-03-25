@@ -203,7 +203,7 @@ I need pictures for all of this....
  * The gel pieces will turn white as they dehydrate. 
  * Incubate the tubes for 10 minutes at room temperature (no longer than 10 minutes!).     
   
-   *If they don’t turn completely white then remove liquid and add more acetonitrile, then they will turn white.         
+   * If they don’t turn completely white then remove liquid and add more acetonitrile, then they will turn white.         
 
 
 

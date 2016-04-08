@@ -86,6 +86,16 @@ relevent ref:
 2. Centrifuge 4 C for 5 minutes to remove large particulates and transfer supernatant to ultracentrifuge tube.     
 3. Ultracentrifuge 100,000 g at 4 C     
 4. Quantify protein concentration  with bradford or qubit     
+5. Make 2X assay buffer (which is your buffer [covaris for us] + 16X fluorescent dye [sypro orange])
+6. Dilute proteins to 1ug/uL (you might want to play with this condition)  
+7. I like to add 50 uL protein with 50uL 2X assay buffer    
+  * Final conc of dye is 8X   
+
+
+8. Place in thermocycler and ramp from 4C to 95C
+9. Grab normalized fluorescence (should be a boltzmann function) 
+  
+  
 
 
 ------

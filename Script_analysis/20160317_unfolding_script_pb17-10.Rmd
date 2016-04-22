@@ -26,10 +26,51 @@ plot(seq(25,50,1),fud(max=1,min=0),pch=15,col="black")
 
 #nls fit
 nls.fit<-function(data=data){
-  y<-nlsLM(unfolding ~ min+ (1-min)/(1+exp((-slope*(Tm-T)))),data=data, start=list(slope=.5,Tm=40,min=.2), trace=TRUE,control=nls.control(warnOnly = TRUE, tol = 1e-05, maxiter=1000))
+  y<-nlsLM(unfolding ~ min+ (1-min)/(1+exp((-slope*(Tm-T)))),data=data, start=list(slope=.5,Tm=45,min=.3), trace=TRUE,control=nls.control(warnOnly = TRUE, tol = 1e-05, maxiter=1000))
   return(coef(y))
   }
 ```
+
+
+#test unfolding curves
+```{r}
+t<-read.csv("../Data/test.csv")
+str(t)
+
+ddply(t,.(Colony),summarize,nls.fit())
+
+m<-subset(t,t$Colony=="Avon")
+nls.fit(m)
+
+wwr<-subset(t,t$Colony=="WWRQ45")
+nls.fit(wwr)
+
+pb<-subset(t,t$Colony=="Pb17-10")
+nls.fit(pb)
+
+b<-subset(t,t$Colony=="Bingham")
+nls.fit(b)
+
+buddy<-t(c(nls.fit(m),nls.fit(b),nls.fit(wwr),nls.fit(pb)))
+buddy2<-data.frame(t(rbind(buddy,c(rep("Avon",3),rep("Bing",3),rep("WWR",3),rep("PB",3)),rep(c("slope","Tm","min"),4))))
+
+buddy2
+names(buddy2)<-c("measure","Colony","parameter")
+buddy2$measure<-as.numeric(as.character(buddy2$measure))
+buddy2
+#write.csv(buddy2,"prelim_param.csv")
+sl<-subset(buddy2,buddy2$parameter=="slope")
+barplot(sl$measure,names.arg=sl$Colony,ylab="slopes")
+
+Tm<-subset(buddy2,buddy2$parameter=="Tm")
+#barplot(Tm$measure,names.arg=Tm$Colony,ylab="Tm",ylim=c(4))
+
+buddy2.sorted<-buddy2[sort(buddy2$parameter),]
+knitr::kable(buddy2.sorted)
+
+
+```
+
 
 #load in data and visualize
 ```{r load and visualize}

@@ -1,0 +1,16 @@
+{
+    "contents" : "---\ntitle: \"Evolutionary innovations in protein unfolding kinetics\"\nauthor: \"Andrew Nguyen\"\ndate: \"2016-March-17\"\noutput: pdf_document\n---\n```{r libraries}\nlibrary(ggplot2)\nlibrary(tidyr)\nlibrary(plyr)\n```\n\n",
+    "created" : 1460561683533.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "112280242",
+    "id" : "D9AECA74",
+    "lastKnownWriteTime" : 1458215004,
+    "path" : "~/zScience/Dissertation_temperature_adaptation_ants/Dissertation_Projects/2016_Protein_stability_evolution/Script_analysis/20160317_protein_stability_pogonomyrmex.Rmd",
+    "project_path" : "20160317_protein_stability_pogonomyrmex.Rmd",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_markdown"
+}

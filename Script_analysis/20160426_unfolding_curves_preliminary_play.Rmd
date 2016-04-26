@@ -8,5 +8,41 @@ output: pdf_document
 library(ggplot2)
 library(tidyr)
 library(minpack.lm)
+
+nls.fit<-function(data=data){
+  y<-nlsLM(unfolding ~ min+ (1-min)/(1+exp((-slope*(Tm-T)))),data=data, start=list(slope=.5,Tm=45,min=.3), trace=TRUE,control=nls.control(warnOnly = TRUE, tol = 1e-05, maxiter=1000))
+  #return(y)
+  return(summary(y)$coefficients)
+  }
+
+
+#Function that predicts values given parameter estimates of curves
+fud<-function(T=seq(25,50,1),Tm=40,slope=.5,max=1,min=0){
+  y<-min+ (max-min)/(1+exp((-slope*(Tm-T))))
+  return(y)
+  }
+```
+
+#comparing 10 vs 20 min
+```{r comparing the 10 min vs 20 min at each temp}
+T<-c(25,30,35,40,43,45,48,50,55,60,65,70)
+ten<-c(1.00,0.984,0.974,0.795,0.787,0.726,0.640,0.574,0.482,0.379,0.387,0.392)
+twen<-c(0.977,0.988,1.00,0.822,0.664,0.564,0.479,0.473,0.432,0.350,0.315,0.304)
+
+ten.dat<-as.data.frame(cbind(T,ten));names(ten.dat)[2]<-"unfolding"
+unfold_10min<-nls.fit(ten.dat)
+
+ty.dat<-as.data.frame(cbind(T,twen));names(ty.dat)[2]<-"unfolding"
+unfold_20min<-nls.fit(ty.dat);unfold_20min
+
+knitr::kable(round(rbind(unfold_10min,unfold_20min),3))
+
+#plots
+
+
+plot(seq(25,70,.1),fud(T=seq(25,70,.1),max=1,min=0.3452337,Tm=43.2788185,slope=0.2824321),pch=15,col="red",ylab="Proportion non-denatured",xlab="Tempearture")
+points(seq(25,70,.1),fud(T=seq(25,70,.1),max=1,min=0.3704093,Tm=46.159662,slope=0.1923073))
+
+
 ```
 

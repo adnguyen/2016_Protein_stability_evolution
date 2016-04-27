@@ -84,3 +84,35 @@ legend(55,1,c("10 minute","20 minute"),pch=16,col=c("black","red"))
 
 ```
 
+#How to sample a reaction norm?
+
+```{r rxn norm}
+
+unfolding<-fud(T=seq(25,70,1),Tm=45,slope=.2,min=.4)
+T<-seq(25,70,1)
+com<-cbind(T,unfolding);head(com)
+plot(T,unfolding,ylab="Poportion non-denatured",xlab="Temperature (C)",las=1)
+
+#sample random points
+n<-as.data.frame(com[sample(nrow(com), 10), ])# randomly sampling
+n<-n[order(n$T),]
+n$unfolding<-n[,2]+rnorm(mean=0,sd=0.02,n=10)# adding error
+
+plot(n$T,n$unfolding,pch=16,col="black",cex=2,ylim=c(.4,1))
+lines(T,unfolding)
+tt<-nls.fit(n)
+tt
+lines(seq(25,70,.1),fud(Tm=tt[2],slope=tt[1],min=tt[3],T=seq(25,70,.1)),col="red",lwd=2)
+legend(45,1,c("Known curve","Modeled based on points"),pch="-",col=c("black","red"),cex=1.5)
+knitr::kable(tt)
+#mean(nndist(n$T))
+
+#try nearest neighbor
+#http://www.statsoft.com/textbook/k-nearest-neighbors
+library(spatstat)
+
+
+
+
+```
+

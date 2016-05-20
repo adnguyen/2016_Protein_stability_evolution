@@ -4,9 +4,11 @@ author: "Antdrew D. Nguyen"
 date: "2016-April-26"
 output: pdf_document
 ---
+$min + \frac{1-min}{(1+e^{(-slope(Tm-Temp))})}$
 
 #Loading libraries and functions
 ```{r}
+library(plyr)
 library(ggplot2)
 library(tidyr)
 library(minpack.lm)
@@ -21,11 +23,14 @@ nls.fit<-function(data=data){
 
 
 #Function that predicts values given parameter estimates of curves
-fud<-function(T=seq(25,50,1),Tm=40,slope=.5,max=1,min=0){
+fud<-function(T=seq(25,70,1),Tm=40,slope=.5,max=1,min=0){
   y<-min+ (max-min)/(1+exp((-slope*(Tm-T))))
   return(y)
   }
 
+plot(seq(25,70,1),fud(slope=.15),col="blue",pch=16,las=1,ylim=c(0,1),ylab="Proportion non-denatured",xlab="Temperature")# aphaeno
+points(seq(25,70,1),fud(,slope=.2),col="red",pch=15)#pogo
+legend(50,1,c("pogo","rudis"),pch=c(15,16),col=c("red","blue"))
 ```
 
 #20160520
@@ -55,12 +60,12 @@ min<-subset(mod1,mod1$parameter=="min")
 min
 summary(aov(Estimate~Species,data=min))
 
-ggplot(x.par,aes())
+ggplot(x.par,aes(x=T,y=unfolding,colour=Species))+geom_point()
 ```
 
 
 #Comparing aphaeno and pogo
-```{r comparing pogo and aphaeno}
+```{r comparing pogo and aphaeno, eval=FALSE}
 #pogo
 T<-c(25,30,35,40,43,45,48,50,55,60,65,70)
 ten<-c(1.00,0.984,0.974,0.795,0.787,0.726,0.640,0.574,0.482,0.379,0.387,0.392)
@@ -92,7 +97,7 @@ legend(55,1,c("Pogonomyrmex barbatus","Aphaenogaster picea"),text.font=3,pch=16,
 
 
 #comparing 10 vs 20 min
-```{r comparing the 10 min vs 20 min at each temp}
+```{r comparing the 10 min vs 20 min at each temp, eval=FALSE}
 # 10 min inc
 #earlier
 unfold_10min<-nls.fit(ten.dat)
@@ -117,7 +122,7 @@ legend(55,1,c("10 minute","20 minute"),pch=16,col=c("black","red"))
 
 #How to sample a reaction norm?
 
-```{r rxn norm}
+```{r rxn norm, eval=FALSE}
 
 unfolding<-fud(T=seq(25,70,1),Tm=45,slope=.2,min=.4)
 T<-seq(25,70,1)

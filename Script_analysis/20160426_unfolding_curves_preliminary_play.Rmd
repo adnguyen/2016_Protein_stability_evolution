@@ -30,7 +30,32 @@ fud<-function(T=seq(25,50,1),Tm=40,slope=.5,max=1,min=0){
 
 #20160520
 ```{r total protein}
+x<-read.csv("../Data/20160520_total_protein_unfolding.csv")
+x.par<-subset(x,x$TN=="N" & x$Species!="A. picea")
 
+str(x.par)
+
+x.par
+
+mod1<-ddply(x.par,.(Species,Colony),nls.fit)
+mod1$parameter<-rep(c("slope","Tm","min"),length(mod1$Species)/3)
+knitr::kable(mod1)
+
+Tm<-subset(mod1,mod1$parameter=="Tm")
+Tm
+summary(aov(Estimate~Species,data=Tm))
+
+slope<-subset(mod1,mod1$parameter=="slope")
+slope
+summary(aov(Estimate~Species,data=slope))
+boxplot(Estimate~Species,data=slope,las=1,ylab="slope parameter")
+
+
+min<-subset(mod1,mod1$parameter=="min")
+min
+summary(aov(Estimate~Species,data=min))
+
+ggplot(x.par,aes())
 ```
 
 

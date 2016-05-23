@@ -4,7 +4,6 @@ author: "Andrew Nguyen"
 date: "2016-March-17"
 output: pdf_document
 ---
-#
 
 #load library
 ```{r libraries}
@@ -29,6 +28,11 @@ nls.fit<-function(data=data){
   y<-nlsLM(unfolding ~ min+ (1-min)/(1+exp((-slope*(Tm-T)))),data=data, start=list(slope=.5,Tm=45,min=.3), trace=TRUE,control=nls.control(warnOnly = TRUE, tol = 1e-05, maxiter=1000))
   return(coef(y))
   }
+```
+
+#Look at GO terms
+```{r GO terms}
+gi_go<-read.table("../Data/2016/03_March/20160317_NCBI_Mass_spec_pb1710_search/gene2go")
 ```
 
 

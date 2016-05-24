@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=640">
+
+    <link rel="stylesheet" href="stylesheets/core.css" media="screen">
+    <link rel="stylesheet" href="stylesheets/mobile.css" media="handheld, only screen and (max-device-width:640px)">
+    <link rel="stylesheet" href="stylesheets/github-light.css">
+
+    <script type="text/javascript" src="javascripts/modernizr.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="javascripts/headsmart.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $('#main_content').headsmart()
+      })
+    </script>
+    <title>2016 protein stability evolution by adnguyen</title>
+  </head>
+
+  <body>
+    <a id="forkme_banner" href="https://github.com/adnguyen/2016_Protein_stability_evolution">View on GitHub</a>
+    <div class="shell">
+
+      <header>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <h1>2016 protein stability evolution</h1>
+            <h2></h2>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+      </header>
+
+      <section id="downloads">
+        <span class="inner">
+          <a href="https://github.com/adnguyen/2016_Protein_stability_evolution/zipball/master" class="zip"><em>download</em> .ZIP</a><a href="https://github.com/adnguyen/2016_Protein_stability_evolution/tarball/master" class="tgz"><em>download</em> .TGZ</a>
+        </span>
+      </section>
+
+
+      <span class="banner-fix"></span>
+
+
+      <section id="main_content">
+        <h1>
+<a id="2016_protein_stability_evolution" class="anchor" href="#2016_protein_stability_evolution" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>2016_Protein_stability_evolution</h1>
+
+<h3>
+<a id="author-andrew-nguyen-phd-candidate-at-the-university-of-vermont-httpsadnguyengithubio" class="anchor" href="#author-andrew-nguyen-phd-candidate-at-the-university-of-vermont-httpsadnguyengithubio" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Author: Andrew Nguyen; PhD Candidate at the University of Vermont (<a href="https://adnguyen.github.io/">https://adnguyen.github.io/</a>)</h3>
+
+<h3>
+<a id="date-initiated-20160321" class="anchor" href="#date-initiated-20160321" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Date initiated: 20160321</h3>
+
+<h3>
+<a id="date-modified-20160411" class="anchor" href="#date-modified-20160411" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Date modified: 20160411</h3>
+
+<h3>
+<a id="this-work-was-supported-by-the-national-science-foundation-division-of-environmental-biology-1136644" class="anchor" href="#this-work-was-supported-by-the-national-science-foundation-division-of-environmental-biology-1136644" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>This work was supported by the National Science Foundation, Division of Environmental Biology (1136644)</h3>
+
+<h3>
+<a id="this-work-is-in-collaboration-with-vgn-proteomics-facility-httpsvgnuvmeduproteomics" class="anchor" href="#this-work-is-in-collaboration-with-vgn-proteomics-facility-httpsvgnuvmeduproteomics" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>This work is in collaboration with VGN proteomics facility: <a href="https://vgn.uvm.edu/proteomics">https://vgn.uvm.edu/proteomics</a>
+</h3>
+
+<p><a href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" src="https://i.creativecommons.org/l/by/4.0/88x31.png"></a><br>This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.  </p>
+
+<h1>
+<a id="objectives" class="anchor" href="#objectives" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Objectives</h1>
+
+<p>This project is interested in elucidating the adaptive shifts in protein stability across the whole proteome between ant species that occupy different thermal regimes. We couple unfolding experiments, by temperature treating whole ant lysates and ultracentrifugation with TMT labeling for LC-MS/MS to quantify protein stability.(For TMT details, see <a href="https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/protein-quantitation-mass-spectrometry/tandem-mass-tag-systems.html">https://www.thermofisher.com/us/en/home/life-science/protein-biology/protein-mass-spectrometry-analysis/protein-quantitation-mass-spectrometry/tandem-mass-tag-systems.html</a>). The TMT labeling and unfolding experiment can be found in the protocols. This github repository will serve as a reference so that our approaches, experiments, and analyses are all reproducible. </p>
+
+<h1>
+<a id="directory-layout" class="anchor" href="#directory-layout" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Directory layout:</h1>
+
+<p><strong>/Protocols/</strong><br>
+1) This directory has the protocols for TMT labeling in pdf form from the vendor, word document of trypsinizing. The most important and tractable document is the protocol.md which outlines most to all of the protocols we use:</p>
+
+<ul>
+<li>Buffers (covaris + protease inhibitors)</li>
+<li>Unfolding experiments (temperature treatments)</li>
+<li>Polyacrylamide gels (making them) </li>
+<li>Trypsin digestions</li>
+<li>TMT labeling (and the mass spec we use)</li>
+</ul>
+
+<p><strong>/Data/</strong><br>
+1) I have arranged all the raw data by year. They are formatted as excel files.<br>
+2) Data in csv format that is  outside the year subdirectories are used for analysis in the Scripts_analysis directory. 
+3) Proteome database: fasta files of all the ant genomes as of 20160411</p>
+
+<p><strong>/Script_analysis/</strong><br>
+1) This is where all the magic happens. I have preliminary scripts so far. I fit unfolding curves and estimate the melting temperatures and slope. I use R and R markdown. 
+2) I also have a preliminary script that estimates the gibbs free energy of each protein.  </p>
+
+<p><strong>/Results/</strong><br>
+1) Powerpoint slides of the PAGE gels we run<br>
+2) Figures (gibbs free energy estimates, proteome unfolding curves)<br>
+3) Output from the Script_analysis    </p>
+
+<h1>
+<a id="to-do-list" class="anchor" href="#to-do-list" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>To do list:</h1>
+
+<p>1) I need to add metadata to my data files </p>
+      </section>
+
+      <footer>
+        <span class="ribbon-outer">
+          <span class="ribbon-inner">
+            <p>this project by <a href="https://github.com/adnguyen">adnguyen</a> can be found on <a href="https://github.com/adnguyen/2016_Protein_stability_evolution">GitHub</a></p>
+          </span>
+          <span class="left-tail"></span>
+          <span class="right-tail"></span>
+        </span>
+        <p>Generated with <a href="https://pages.github.com">GitHub Pages</a> using Merlot</p>
+        <span class="octocat"></span>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>

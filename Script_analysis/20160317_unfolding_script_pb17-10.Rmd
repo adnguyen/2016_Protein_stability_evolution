@@ -30,6 +30,12 @@ nls.fit<-function(data=data){
   }
 ```
 
+#How should we be sampling non-linear curves?
+```{r nonlinear curves}
+
+```
+
+
 #Look at GO terms
 ```{r GO terms}
 gi_go<-read.table("../Data/2016/03_March/20160317_NCBI_Mass_spec_pb1710_search/gene2go")

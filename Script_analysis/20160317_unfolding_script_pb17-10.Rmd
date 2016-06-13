@@ -9,7 +9,9 @@ output: pdf_document
 ```{r libraries}
 library(ggplot2)
 library(tidyr)
+library(stringr)
 library(minpack.lm)
+library(plyr)
 #functions
 
 #fitting logistic curve 
@@ -26,8 +28,10 @@ plot(seq(25,50,1),fud(max=1,min=0),pch=15,col="black")
 #nls fit
 nls.fit<-function(data=data){
   y<-nlsLM(unfolding ~ min+ (1-min)/(1+exp((-slope*(Tm-T)))),data=data, start=list(slope=.5,Tm=45,min=.3), trace=TRUE,control=nls.control(warnOnly = TRUE, tol = 1e-05, maxiter=1000))
-  return(coef(y))
+  #return(coef(y))
+  return(summary(y)$parameters)
   }
+
 ```
 
 #How should we be sampling non-linear curves?
@@ -84,7 +88,7 @@ knitr::kable(buddy2.sorted)
 
 #load in data and visualize
 ```{r load and visualize}
-p<-read.csv("../Data/20160317_parsed_pb17-10_unfolding_mass_spec_dat.csv")
+p<-read.csv("../Data/20160317_parsed_pb17-10_unfolding_mass_spec_NCBI_search_dat.csv")
 str(p)
 
 #getting rid of 25
@@ -128,6 +132,34 @@ summary(fit2)
 summary(fit_fail)$convInfo$stopMessage
 summary(fit2)$convInfo$stopMessage
 ```
+
+#new fits with failwith
+* fits<-ddply(mlong,.(Colony,gene),failwith(f=Boltz))
+```{r}
+data_long <- gather(p1, T, unfolding, X15:X60)
+dlong<-data_long[order(data_long$Accession),]
+head(dlong)
+
+temp<-as.data.frame(matrix(unlist(str_split(dlong$T,"X",n=3)),ncol=2,byrow=TRUE))
+
+dlong$T<-as.numeric(as.character(temp$V2))
+names(dlong)
+
+fits<-ddply(dlong,.(Description),failwith(f=nls.fit))
+params<-rep(c("slope","Tm","min"),length(fits$Description)/3)
+fits$params<-params
+head(fits)
+
+Tm<-subset(fits,fits$params=="Tm" & fits$Estimate <60)
+hist(Tm$Estimate,xlim=c(25,60),10)
+hiTm<-subset(fits,fits$params=="Tm" & fits$Estimate > 40)
+
+hiTm$Description
+
+```
+
+
+
 #looking for high tm proteins
 ```{r looking for high tm proteins}
 test<-as.data.frame(t(rbind(Temp,p1[100,3:11])))

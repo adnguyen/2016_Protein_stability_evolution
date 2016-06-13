@@ -1,4 +1,5 @@
 /Results/*.pptx
 /Data/**/*.pptx
 /Documents/*
+!/Documents/Protocols/*
 /Data/2016/03_March/20160321_pbar_antgenomes_database_search_pb1710_search/*.msf

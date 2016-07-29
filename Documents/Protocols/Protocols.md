@@ -3,7 +3,7 @@
 Authors: Amanda S. Meyer, Andrew Nguyen     
 
 Initiated: 20160324      
-Updated: 20160324
+Updated: 20160729
 
 This work is done in collaboration with:    
  * Dr. Bryan Ballif's lab http://www.uvm.edu/~bballif/      
@@ -86,7 +86,7 @@ relevent ref:
  * Place in bullet blender and homogenize for 15 s, top speed; immediately place on ice    
 
 2. Centrifuge 4 C for 5 minutes to remove large particulates and transfer supernatant to ultracentrifuge tube.     
-3. Ultracentrifuge 100,000 g at 4 C     
+3. Ultracentrifuge 100,000 g at 4 C 20 minutes     
 4. Quantify protein concentration  with bradford or qubit     
 5. Make 2X assay buffer (which is your buffer [covaris for us] + 16X fluorescent dye [sypro orange])
 6. Dilute proteins to 1ug/uL (you might want to play with this condition)  
@@ -111,11 +111,11 @@ relevent ref:
  * Place in bullet blender and homogenize for 15 s, top speed; immediately place on ice      
 
 2. Centrifuge 4 C for 5 minutes to remove large particulates and transfer supernatant to ultracentrifuge tube.     
-3. Ultracentrifuge 100,000 g at 4 C        
+3. Ultracentrifuge 100,000 g at 4 C 20 minutes        
 4. Quantify protein concentration        
 5. Temperature 50-100 ug of protein (in 50-100 uL vol, so 1 ug/ uL)  treat (in a thermocycler) over 10 points: 15, 20, 25, 30, 35, 40, 45, 50, 55, 60 C      
  * Have 4-6 replicates per temperature treatment    
- * Save 2-3 replicates to show that your treatments aren't lost and Ultracentrifuge 100,000 g at 4 C  for the rest of the replicates      
+ * Save 2-3 replicates to show that your treatments aren't lost and Ultracentrifuge 100,000 g at 4 C 20 minutes  for the rest of the replicates      
 6. Quantify protein concentration and run samples on polyacrylamide gels.    
  * The temperature treated, non centrifuged samples (we refer to them as "TOtal") should not decrease in concentration      
  * You should detect temperature depedent unfolding across temperatures after ultracentrifugation (fraction non-denatured)       

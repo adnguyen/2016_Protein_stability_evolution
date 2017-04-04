@@ -1,19 +1,20 @@
-#Protocols for anything related to protein stability     
+# Protocols for anything related to protein stability     
 
 Authors: Amanda S. Meyer, Andrew Nguyen     
 
 Initiated: 20160324      
-Updated: 20160729
+Updated: 20170404
 
-This work is done in collaboration with:    
+This work is done in collaboration with:     
  * Dr. Bryan Ballif's lab http://www.uvm.edu/~bballif/      
  * VGN proteomics facility https://vgn.uvm.edu/proteomics    
  
 <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.     
 
-------
+------    
 
-# Table of contents
+# Table of contents    
+
 - [Initial Notes](#id-section1)
 - [Making buffers for protein isolations](#id-section2)
 - [Protein unfolding assay through qPCR](#id-section3)
@@ -23,22 +24,25 @@ This work is done in collaboration with:
 - [Tandem Mass Tag (TMT) labeling](#id-section7)
  
 
-------
+------    
+
 <div id='id-section1'/>
-##Initial notes:    
+## Initial notes:    
 1) Mechanical forces and bubbles can denature proteins. Be careful in how you pipette.     
 2) Minimize contamination: don't touch your face and phone with your gloves and then continue to handle samples   
 3) **Everything is done on COLD ICE unless specified otherwise**
 
-------
+------     
 
-<div id='id-section2'/>
-##Making buffers for protein isolations: 
+<div id='id-section2'/>    
+
+## Making buffers for protein isolations:     
 
 We use a commercial buffer SuperB by Covaris Inc with protease inhibitors to isolate "native" proteins. 
 
-###Reagents
-Protease Inhibitors:   
+### Reagents    
+
+Protease Inhibitors:    
 * Pepstatin and Leupeptin- https://us.vwr.com/store/catalog/product.jsp?product_id=7805764           
 * Phenylmethylsulfonyl fluoride (PMSF)- http://www.sigmaaldrich.com/catalog/product/sigma/p7626?lang=en&region=US          
 * 0.5 M EDTA  http://www.affymetrix.com/estore/esearch/search.jsp?pd=130309&N=4294967293    
@@ -47,7 +51,8 @@ Protease Inhibitors:
 Covaris superB buffer: http://covarisinc.com/products/cryoprep-extraction/extraction-buffers/     
 
 
-###Recipe
+### Recipe    
+
 We use the covaris superB buffer which is optimized for isolating Native proteins with 5x protease inhibitors    
 
 
@@ -59,12 +64,15 @@ We use the covaris superB buffer which is optimized for isolating Native protein
 |PMSF|100x| 5x| 50 uL||
 |EDTA|500 mM|10 mM|20 uL|
 |EGTA|500 mM|10 mM|20 uL|
-Total|||1 mL|
+Total|||1 mL|    
+
 
 ------
 
-<div id='id-section3'/>
-##Protein unfolding assay through qPCR (also known as thermal stability shift assay
+<div id='id-section3'/>    
+
+## Protein unfolding assay through qPCR (also known as thermal stability shift assay    
+
 relevent ref:
  * Niesen FH, Berglund H, Vedadi M. 2007. The use of differential scanning fluorimetry to detect ligand interactions that promote protein stability. Nat. Protocols 2:2212–2221.
 
@@ -102,8 +110,10 @@ relevent ref:
 
 ------
 
-<div id='id-section4'/>
-##Protein unfolding assay through ultracentrifugation       
+<div id='id-section4'/>    
+
+## Protein unfolding assay through ultracentrifugation         
+
 **Everything needs to be on ice!!!**     
 **Steps:**         
 1. Homogenize ants or your favorite ectotherm    
@@ -122,9 +132,12 @@ relevent ref:
  
 
 
-------
-<div id='id-section5'/>
-##Making polyacrylamide gels and electrophoresis(PAGE)     
+------   
+
+<div id='id-section5'/>    
+
+## Making polyacrylamide gels and electrophoresis(PAGE)       
+
 
 **Reagents and notes:**     
 
@@ -153,7 +166,8 @@ Making a PAGE
 |Separating Buffer| 1.9 mL | 1.9 mL| 1.9 mL|
 |dd H_20| 3.7 mL| 3.1 mL| 2.6 mL|
 |10 % APS| 50 uL | 50 uL| 50 uL|
-|TEMED| 5 uL | 5 uL| 5 uL|
+|TEMED| 5 uL | 5 uL| 5 uL|   
+
 
 4) Quickly pipette ~4 mL into hand cast set up and add a layer of butanol so that the gel is horizontally even as it polymerizes (15-30 minutes? )       
 5) As the separating gel is polymerizing, make stacking gel  
@@ -165,7 +179,8 @@ Making a PAGE
 |Stacking Buffer| 1.3 mL | 
 |dd H_20| 3.0 mL| 
 |10 % APS| 50 uL | 
-|TEMED| 5 uL | 
+|TEMED| 5 uL |   
+
 
 6) Back to handcast: Pour off butanol into waste receptacle (It stinks)     
 7) Add stacking mix from step 5 to handcast and fill to brim    
@@ -180,14 +195,16 @@ I need pictures for all of this....
 
 
 
-<div id='id-section6'/>
-##Trypsin Digestion of stained proteins in polyacrylamide gels in preparation for Mass Spectrometry 
+<div id='id-section6'/>     
+
+## Trypsin Digestion of stained proteins in polyacrylamide gels in preparation for Mass Spectrometry     
+
 **Reagents and notes: ** 
 * Trypsin
 * 
 
 
-###Steps:
+### Steps:    
 
 **Note: OK Stopping Points = OSP!**     
 
@@ -240,11 +257,13 @@ I need pictures for all of this....
 
 **---> OSP!!**
 
-###Reduction of Disulfide Bonds
+### Reduction of Disulfide Bonds     
+
 1)	Add 120 uL of 10 mM DTT (diothiothreitol) in 100 mM ammonium bicarbonate (will probably need to dilute) to the dried gel pieces.    
 2)	Incubate at 56C for 1 hour. Make sure gel pieces are fully covered.     
 
-###Alkylation with Iodoacetamide 
+### Alkylation with Iodoacetamide    
+
 
 1)	Spin gel pieces down for 30 s at max speed. Remove and discard DTT.      
 2)	Add 120 uL of 55mM (10mg/mL) IAA (iodoacetimde) in 100 mM ammonium bicarbonate (will probably need to dilute). Make sure gel pieces are fully covered.     
@@ -257,7 +276,8 @@ I need pictures for all of this....
 9)	Speed vac gel pieces for 5 minutes to dry (completely dry).      
 10)	Move on to trypsin digestion.      
 
-###Trypsin Digestion :
+### Trypsin Digestion :    
+
 1)	Place the tubes on ice for 5 minutes. Add 35 uL of trypsin solution. Add 50 uL of 100 mM ammonium bicarbonate to completely cover gel pieces.
 
  * Recipe for trypsin solution   
@@ -268,7 +288,8 @@ I need pictures for all of this....
 |Trypsin| 20ug/50uL| 20ug in 196 uL| 1 uL|
 |TEAB (triethyl ammonium bicarbonate)|100 mM? |40 mM?|80 uL|  
 |HPLC H20| ||100 uL|
-|MeCN (acetonitrile)| 100%| 5%| 10 uL|
+|MeCN (acetonitrile)| 100%| 5%| 10 uL|   
+
 
 
 2)	Incubate the tubes on ice for 15 minutes. 
@@ -298,8 +319,10 @@ a.	Quickly vortex tube.
 ------
 
 
-<div id='id-section7'/>
-##Tandem Mass Tag (TMT) labeling   
+<div id='id-section7'/>    
+
+## Tandem Mass Tag (TMT) labeling     
+
 **All pipetting needs to be extremely accurate in this part of the protocol.**     
 
 

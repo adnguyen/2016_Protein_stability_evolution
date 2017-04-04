@@ -169,6 +169,7 @@ Making a PAGE
 |TEMED| 5 uL | 5 uL| 5 uL|   
 
 
+
 4) Quickly pipette ~4 mL into hand cast set up and add a layer of butanol so that the gel is horizontally even as it polymerizes (15-30 minutes? )       
 5) As the separating gel is polymerizing, make stacking gel  
  * Stacking gel recipe for each gel: 
@@ -180,6 +181,7 @@ Making a PAGE
 |dd H_20| 3.0 mL| 
 |10 % APS| 50 uL | 
 |TEMED| 5 uL |   
+
 
 
 6) Back to handcast: Pour off butanol into waste receptacle (It stinks)     
@@ -289,6 +291,7 @@ I need pictures for all of this....
 |TEAB (triethyl ammonium bicarbonate)|100 mM? |40 mM?|80 uL|  
 |HPLC H20| ||100 uL|
 |MeCN (acetonitrile)| 100%| 5%| 10 uL|   
+
 
 
 

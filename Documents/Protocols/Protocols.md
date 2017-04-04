@@ -175,7 +175,7 @@ Making a PAGE
  * Stacking gel recipe for each gel: 
 
 |Reagent| 4.2 % |
-|---|---|---|---|
+|---|---|
 |Acryl bis 37.5:1|0.7 mL |
 |Stacking Buffer| 1.3 mL | 
 |dd H_20| 3.0 mL| 
